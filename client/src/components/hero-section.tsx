@@ -82,18 +82,37 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
         </div>
       </div>
       
-      {/* Enhanced decorative elements */}
-      <div className="absolute top-10 left-10 opacity-10">
-        <i className="fas fa-square-root-alt text-6xl text-white animate-pulse"></i>
-      </div>
-      <div className="absolute bottom-20 right-20 opacity-10">
-        <i className="fas fa-infinity text-5xl text-white animate-pulse"></i>
-      </div>
-      <div className="absolute top-1/2 left-4 opacity-10">
-        <i className="fas fa-pi text-4xl text-white"></i>
-      </div>
-      <div className="absolute top-20 right-10 opacity-10">
-        <i className="fas fa-angle text-3xl text-white"></i>
+      {/* Mathematical formulas background */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Row 1 */}
+        <div className="absolute top-12 left-12 text-white text-2xl opacity-15 animate-pulse" style={{animationDelay: '0s'}}>x² + y² = r²</div>
+        <div className="absolute top-16 right-20 text-white text-xl opacity-10 animate-pulse" style={{animationDelay: '0.5s'}}>∫ f(x)dx</div>
+        <div className="absolute top-32 left-1/4 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '1s'}}>π ≈ 3.14159</div>
+        <div className="absolute top-48 right-1/3 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '1.5s'}}>sin²θ + cos²θ = 1</div>
+        
+        {/* Row 2 */}
+        <div className="absolute top-64 left-8 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '2s'}}>√(a² + b²)</div>
+        <div className="absolute top-80 right-12 text-white text-2xl opacity-20 animate-pulse" style={{animationDelay: '2.5s'}}>e^(iπ) + 1 = 0</div>
+        <div className="absolute top-96 left-1/3 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '3s'}}>lim(x→∞)</div>
+        <div className="absolute top-72 right-1/4 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '3.5s'}}>a + b = c</div>
+        
+        {/* Row 3 - Middle */}
+        <div className="absolute top-1/2 left-12 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '4s'}}>2x + 3y = 7</div>
+        <div className="absolute top-1/2 right-16 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '4.5s'}}>f'(x) = df/dx</div>
+        <div className="absolute top-1/2 left-1/2 text-white text-2xl opacity-10 animate-pulse" style={{animationDelay: '5s'}}>∞</div>
+        <div className="absolute top-60 left-1/2 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '5.5s'}}>ax² + bx + c = 0</div>
+        
+        {/* Row 4 */}
+        <div className="absolute bottom-48 left-16 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '6s'}}>3 × 4 = 12</div>
+        <div className="absolute bottom-64 right-20 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '6.5s'}}>log₂(8) = 3</div>
+        <div className="absolute bottom-80 left-1/4 text-white text-2xl opacity-10 animate-pulse" style={{animationDelay: '7s'}}>Σ</div>
+        <div className="absolute bottom-32 right-1/3 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '7.5s'}}>5! = 120</div>
+        
+        {/* Row 5 - Bottom */}
+        <div className="absolute bottom-16 left-8 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '8s'}}>√9 = 3</div>
+        <div className="absolute bottom-24 right-12 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '8.5s'}}>7 ÷ 2 = 3.5</div>
+        <div className="absolute bottom-40 left-1/3 text-white text-2xl opacity-20 animate-pulse" style={{animationDelay: '9s'}}>± √</div>
+        <div className="absolute bottom-12 right-1/4 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '9.5s'}}>10² = 100</div>
       </div>
       
       {/* Floating circles for visual appeal */}
