@@ -100,22 +100,22 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
         <div className="absolute top-72 right-1/4 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '3.5s'}}>pronunciation</div>
         
         {/* Row 3 - Middle */}
-        <div className="absolute top-1/2 left-12 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '4s'}}>глагол</div>
-        <div className="absolute top-1/2 right-16 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '4.5s'}}>синтаксис</div>
-        <div className="absolute top-1/2 left-1/2 text-white text-2xl opacity-10 animate-pulse" style={{animationDelay: '5s'}}>Ч, Ш, Щ</div>
-        <div className="absolute top-60 left-1/2 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '5.5s'}}>предлог</div>
+        <div className="absolute top-1/2 left-12 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '4s'}}>verb</div>
+        <div className="absolute top-1/2 right-16 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '4.5s'}}>syntax</div>
+        <div className="absolute top-1/2 left-1/2 text-white text-2xl opacity-10 animate-pulse" style={{animationDelay: '5s'}}>Q, R, S</div>
+        <div className="absolute top-60 left-1/2 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '5.5s'}}>preposition</div>
         
         {/* Row 4 */}
-        <div className="absolute bottom-48 left-16 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '6s'}}>частица</div>
-        <div className="absolute bottom-64 right-20 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '6.5s'}}>морфология</div>
-        <div className="absolute bottom-80 left-1/4 text-white text-2xl opacity-10 animate-pulse" style={{animationDelay: '7s'}}>И, Й</div>
-        <div className="absolute bottom-32 right-1/3 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '7.5s'}}>деепричастие</div>
+        <div className="absolute bottom-48 left-16 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '6s'}}>article</div>
+        <div className="absolute bottom-64 right-20 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '6.5s'}}>morphology</div>
+        <div className="absolute bottom-80 left-1/4 text-white text-2xl opacity-10 animate-pulse" style={{animationDelay: '7s'}}>T, U, V</div>
+        <div className="absolute bottom-32 right-1/3 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '7.5s'}}>participle</div>
         
         {/* Row 5 - Bottom */}
-        <div className="absolute bottom-16 left-8 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '8s'}}>прилагательное</div>
-        <div className="absolute bottom-24 right-12 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '8.5s'}}>местоимение</div>
-        <div className="absolute bottom-40 left-1/3 text-white text-2xl opacity-20 animate-pulse" style={{animationDelay: '9s'}}>Ж, З</div>
-        <div className="absolute bottom-12 right-1/4 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '9.5s'}}>существительное</div>
+        <div className="absolute bottom-16 left-8 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '8s'}}>adjective</div>
+        <div className="absolute bottom-24 right-12 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '8.5s'}}>pronoun</div>
+        <div className="absolute bottom-40 left-1/3 text-white text-2xl opacity-20 animate-pulse" style={{animationDelay: '9s'}}>W, X, Y</div>
+        <div className="absolute bottom-12 right-1/4 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '9.5s'}}>noun</div>
       </div>
       
       {/* Floating circles for visual appeal */}
