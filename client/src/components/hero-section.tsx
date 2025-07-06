@@ -7,21 +7,18 @@ interface HeroSectionProps {
 }
 
 export default function HeroSection({ onBookingClick }: HeroSectionProps) {
-  const [isVisible, setIsVisible] = useState(false);
-  const [animationKey, setAnimationKey] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    setIsVisible(false);
-    setAnimationKey(prev => prev + 1);
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 300);
+    }, 500);
     return () => clearTimeout(timer);
   }, []);
 
-  const successRate = useCounterAnimation(98, 2000, isVisible);
-  const experience = useCounterAnimation(7, 2000, isVisible);
-  const students = useCounterAnimation(600, 2000, isVisible);
+  const successRate = 98;
+  const experience = 7;
+  const students = 600;
 
   return (
     <section id="hero" className="hero-gradient min-h-screen flex items-center relative overflow-hidden">
