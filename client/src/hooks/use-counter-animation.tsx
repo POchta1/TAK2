@@ -11,7 +11,7 @@ export function useCounterAnimation(
 
   useEffect(() => {
     if (!shouldStart) {
-      setCurrentValue(0);
+      setCurrentValue(targetValue);
       setIsAnimating(false);
       return;
     }
