@@ -24,10 +24,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-bold text-xl mb-4">Анна Петрова</h3>
-              <p className="text-blue-200 mb-4">Частный репетитор по математике</p>
+              <h3 className="font-bold text-xl mb-4">Елена Смирнова</h3>
+              <p className="text-blue-200 mb-4">Частный репетитор по русскому языку</p>
               <p className="text-blue-200 text-sm">
-                Помогаю ученикам полюбить математику и достигать высоких результатов на экзаменах
+                Помогаю ученикам полюбить русский язык и достигать высоких результатов на экзаменах
               </p>
             </div>
             
@@ -37,7 +37,7 @@ export default function Home() {
                 <li>Подготовка к ЕГЭ</li>
                 <li>Подготовка к ОГЭ</li>
                 <li>Школьная программа</li>
-                <li>Олимпиадная математика</li>
+                <li>Изложения и сочинения</li>
               </ul>
             </div>
             
@@ -45,7 +45,7 @@ export default function Home() {
               <h4 className="font-bold text-lg mb-4">Контакты</h4>
               <div className="space-y-2 text-blue-200">
                 <p>+7 (999) 123-45-67</p>
-                <p>anna.petrova.math@email.com</p>
+                <p>elena.smirnova.russian@email.com</p>
                 <div className="flex space-x-4 mt-4">
                   <a href="#" className="text-2xl hover:text-yellow-300 transition-colors">
                     <i className="fab fa-whatsapp"></i>
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           
           <div className="border-t border-blue-700 mt-8 pt-8 text-center text-blue-200">
-            <p>&copy; 2024 Анна Петрова. Все права защищены.</p>
+            <p>&copy; 2024 Елена Смирнова. Все права защищены.</p>
           </div>
         </div>
       </footer>
