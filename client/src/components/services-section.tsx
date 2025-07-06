@@ -50,18 +50,18 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="text-center group">
             <div className="bg-gradient-to-r from-primary to-accent w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
-              <i className="fas fa-calculator text-3xl text-white"></i>
+              <i className="fas fa-spell-check text-3xl text-white"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3 text-gray-800">Алгебра</h3>
-            <p className="text-gray-600 leading-relaxed">Уравнения, неравенства, функции, логарифмы</p>
+            <h3 className="font-bold text-xl mb-3 text-gray-800">Орфография</h3>
+            <p className="text-gray-600 leading-relaxed">Правописание, словарные слова, правила</p>
           </div>
           
           <div className="text-center group">
             <div className="bg-gradient-to-r from-accent to-primary w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
-              <i className="fas fa-shapes text-3xl text-white"></i>
+              <i className="fas fa-book-open text-3xl text-white"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3 text-gray-800">Геометрия</h3>
-            <p className="text-gray-600 leading-relaxed">Планиметрия, стереометрия, векторы</p>
+            <h3 className="font-bold text-xl mb-3 text-gray-800">Синтаксис</h3>
+            <p className="text-gray-600 leading-relaxed">Пунктуация, предложения, текст</p>
           </div>
           
           <div className="text-center group">
@@ -69,7 +69,7 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
               <i className="fas fa-chart-line text-3xl text-white"></i>
             </div>
             <h3 className="font-bold text-xl mb-3 text-gray-800">Подготовка к ЕГЭ/ОГЭ</h3>
-            <p className="text-gray-600 leading-relaxed">Разбор заданий, стратегии решения</p>
+            <p className="text-gray-600 leading-relaxed">Разбор заданий, изложения, сочинения</p>
           </div>
         </div>
             

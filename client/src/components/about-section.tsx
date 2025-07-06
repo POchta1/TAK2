@@ -5,8 +5,8 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="font-bold text-4xl lg:text-5xl text-primary mb-6">Обо мне</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Меня зовут <span className="font-semibold text-primary">Анна Петрова</span>, и я помогаю ученикам 
-            полюбить математику и достигать высоких результатов на экзаменах
+            Меня зовут <span className="font-semibold text-primary">Елена Смирнова</span>, и я помогаю ученикам 
+            полюбить русский язык и достигать высоких результатов на экзаменах
           </p>
         </div>
         
@@ -15,7 +15,7 @@ export default function AboutSection() {
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img 
                 src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400" 
-                alt="Анна Петрова во время урока" 
+                alt="Елена Смирнова во время урока" 
                 className="w-full h-96 object-cover transform hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -32,11 +32,11 @@ export default function AboutSection() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <i className="fas fa-university text-primary mr-3 mt-1"></i>
-                  <span>МГУ им. М.В. Ломоносова, механико-математический факультет</span>
+                  <span>РУДН, филологический факультет</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fas fa-medal text-yellow-500 mr-3 mt-1"></i>
-                  <span>Диплом с отличием по специальности "Математика"</span>
+                  <span>Диплом с отличием по специальности "Русский язык и литература"</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fas fa-certificate text-green-500 mr-3 mt-1"></i>
@@ -78,7 +78,7 @@ export default function AboutSection() {
               <p className="text-blue-100 leading-relaxed">
                 Использую <span className="font-semibold">индивидуальный подход</span> к каждому ученику, 
                 современные интерактивные методы и проверенные методики, которые делают изучение 
-                математики <span className="font-semibold">увлекательным и эффективным</span>.
+                русского языка <span className="font-semibold">увлекательным и эффективным</span>.
               </p>
             </div>
           </div>

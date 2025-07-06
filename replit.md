@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a modern, professional tutoring website built for private mathematics tutors. The application is designed as a business card/landing page that showcases the tutor's services, qualifications, and allows potential students to contact and book trial lessons. The website features a clean, educational design inspired by successful learning platforms like Coursera and Khan Academy.
+This is a modern, professional tutoring website built for private Russian language tutors. The application is designed as a business card/landing page that showcases the tutor's services, qualifications, and allows potential students to contact and book trial lessons. The website features a clean, educational design with a darker blue color scheme and Russian language-specific content.
 
 ## System Architecture
 
@@ -114,6 +114,7 @@ This is a modern, professional tutoring website built for private mathematics tu
 ```
 Changelog:
 - June 27, 2025. Initial setup
+- July 6, 2025. Migrated to Replit environment, adapted content for Russian language tutor, changed color scheme to darker blue
 ```
 
 ## User Preferences
