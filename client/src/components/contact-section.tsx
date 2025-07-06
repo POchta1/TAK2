@@ -213,7 +213,7 @@ export default function ContactSection() {
                 <div className="flex items-center">
                   <i className="fas fa-envelope text-primary mr-4"></i>
                   <div>
-                    <p className="font-medium">anna.petrova.math@email.com</p>
+                    <p className="font-medium">elena.smirnova.russian@email.com</p>
                     <p className="text-sm text-gray-600">Отвечаю в течение 2-х часов</p>
                   </div>
                 </div>
