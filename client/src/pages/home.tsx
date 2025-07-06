@@ -44,13 +44,13 @@ export default function Home() {
             <div>
               <h4 className="font-bold text-lg mb-4 text-white">Контакты</h4>
               <div className="space-y-2 text-red-200">
-                <p>+7 (999) 123-45-67</p>
-                <p>elena.smirnova.english@email.com</p>
+                <p className="text-red-200">+7 (999) 123-45-67</p>
+                <p className="text-red-200">elena.smirnova.english@email.com</p>
                 <div className="flex space-x-4 mt-4">
-                  <a href="#" className="text-2xl hover:text-yellow-300 transition-colors text-white">
+                  <a href="#" className="text-2xl hover:text-yellow-300 transition-colors text-red-200">
                     <i className="fab fa-whatsapp"></i>
                   </a>
-                  <a href="#" className="text-2xl hover:text-yellow-300 transition-colors text-white">
+                  <a href="#" className="text-2xl hover:text-yellow-300 transition-colors text-red-200">
                     <i className="fab fa-telegram"></i>
                   </a>
                 </div>
