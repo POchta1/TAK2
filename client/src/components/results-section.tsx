@@ -73,8 +73,8 @@ export default function ResultsSection() {
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold text-4xl mb-4">Результаты учеников</h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+          <h2 className="font-bold text-4xl mb-4 text-white">Результаты учеников</h2>
+          <p className="text-xl text-red-100 max-w-3xl mx-auto">
             Моя главная цель — помочь каждому ученику раскрыть свой потенциал и достичь высоких результатов
           </p>
         </div>
@@ -82,26 +82,26 @@ export default function ResultsSection() {
         {/* Statistics */}
         <div className="grid md:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
-            <div className="text-4xl font-bold mb-2">{avgScore}</div>
-            <p className="text-blue-200">Средний балл ЕГЭ</p>
+            <div className="text-4xl font-bold mb-2 text-white">{avgScore}</div>
+            <p className="text-red-200">Средний балл ЕГЭ</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold mb-2">{successRate}</div>
-            <p className="text-blue-200">% поступивших в ВУЗы</p>
+            <div className="text-4xl font-bold mb-2 text-white">{successRate}</div>
+            <p className="text-red-200">% поступивших в ВУЗы</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold mb-2">{improvement}</div>
-            <p className="text-blue-200">Улучшение на баллов</p>
+            <div className="text-4xl font-bold mb-2 text-white">{improvement}</div>
+            <p className="text-red-200">Улучшение на баллов</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold mb-2">{satisfaction}</div>
-            <p className="text-blue-200">% довольных родителей</p>
+            <div className="text-4xl font-bold mb-2 text-white">{satisfaction}</div>
+            <p className="text-red-200">% довольных родителей</p>
           </div>
         </div>
         
         {/* Testimonials Slider */}
         <div className="relative max-w-4xl mx-auto">
-          <h3 className="font-bold text-2xl text-center mb-8">Отзывы учеников и родителей</h3>
+          <h3 className="font-bold text-2xl text-center mb-8 text-white">Отзывы учеников и родителей</h3>
           
           <div className="relative overflow-hidden rounded-2xl">
             <div 

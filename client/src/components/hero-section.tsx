@@ -85,19 +85,19 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
         </div>
       </div>
       
-      {/* English language elements background */}
+      {/* English/Russian language elements background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Row 1 */}
+        {/* Row 1 - Mix of English and Russian */}
         <div className="absolute top-12 left-12 text-white text-2xl opacity-15 animate-pulse" style={{animationDelay: '0s'}}>A, B, C</div>
-        <div className="absolute top-16 right-20 text-white text-xl opacity-10 animate-pulse" style={{animationDelay: '0.5s'}}>grammar</div>
+        <div className="absolute top-16 right-20 text-white text-xl opacity-10 animate-pulse" style={{animationDelay: '0.5s'}}>грамматика</div>
         <div className="absolute top-32 left-1/4 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '1s'}}>TOEFL</div>
         <div className="absolute top-48 right-1/3 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '1.5s'}}>speaking</div>
         
-        {/* Row 2 */}
-        <div className="absolute top-64 left-8 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '2s'}}>vocabulary</div>
+        {/* Row 2 - Mix of English and Russian */}
+        <div className="absolute top-64 left-8 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '2s'}}>словарь</div>
         <div className="absolute top-80 right-12 text-white text-2xl opacity-20 animate-pulse" style={{animationDelay: '2.5s'}}>X, Y, Z</div>
         <div className="absolute top-96 left-1/3 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '3s'}}>IELTS</div>
-        <div className="absolute top-72 right-1/4 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '3.5s'}}>fluency</div>
+        <div className="absolute top-72 right-1/4 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '3.5s'}}>pronunciation</div>
         
         {/* Row 3 - Middle */}
         <div className="absolute top-1/2 left-12 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '4s'}}>глагол</div>

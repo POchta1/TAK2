@@ -24,33 +24,33 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-bold text-xl mb-4">Елена Смирнова</h3>
-              <p className="text-blue-200 mb-4">Частный репетитор по русскому языку</p>
-              <p className="text-blue-200 text-sm">
-                Помогаю ученикам полюбить русский язык и достигать высоких результатов на экзаменах
+              <h3 className="font-bold text-xl mb-4 text-white">Елена Смирнова</h3>
+              <p className="text-red-200 mb-4">Частный репетитор по английскому языку</p>
+              <p className="text-red-200 text-sm">
+                Помогаю ученикам полюбить английский язык и достигать высоких результатов на экзаменах
               </p>
             </div>
             
             <div>
-              <h4 className="font-bold text-lg mb-4">Услуги</h4>
-              <ul className="space-y-2 text-blue-200">
+              <h4 className="font-bold text-lg mb-4 text-white">Услуги</h4>
+              <ul className="space-y-2 text-red-200">
                 <li>Подготовка к ЕГЭ</li>
-                <li>Подготовка к ОГЭ</li>
-                <li>Школьная программа</li>
-                <li>Изложения и сочинения</li>
+                <li>Подготовка к IELTS</li>
+                <li>Подготовка к TOEFL</li>
+                <li>Разговорная практика</li>
               </ul>
             </div>
             
             <div>
-              <h4 className="font-bold text-lg mb-4">Контакты</h4>
-              <div className="space-y-2 text-blue-200">
+              <h4 className="font-bold text-lg mb-4 text-white">Контакты</h4>
+              <div className="space-y-2 text-red-200">
                 <p>+7 (999) 123-45-67</p>
-                <p>elena.smirnova.russian@email.com</p>
+                <p>elena.smirnova.english@email.com</p>
                 <div className="flex space-x-4 mt-4">
-                  <a href="#" className="text-2xl hover:text-yellow-300 transition-colors">
+                  <a href="#" className="text-2xl hover:text-yellow-300 transition-colors text-white">
                     <i className="fab fa-whatsapp"></i>
                   </a>
-                  <a href="#" className="text-2xl hover:text-yellow-300 transition-colors">
+                  <a href="#" className="text-2xl hover:text-yellow-300 transition-colors text-white">
                     <i className="fab fa-telegram"></i>
                   </a>
                 </div>
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="border-t border-blue-700 mt-8 pt-8 text-center text-blue-200">
+          <div className="border-t border-red-700 mt-8 pt-8 text-center text-red-200">
             <p>&copy; 2024 Елена Смирнова. Все права защищены.</p>
           </div>
         </div>
