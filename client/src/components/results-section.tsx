@@ -15,17 +15,20 @@ export default function ResultsSection() {
     {
       name: "Елена Смирнова",
       role: "Мама ученика",
-      text: "Анна Александровна — настоящий профессионал! Мой сын повысил балл с 45 до 78 за полгода подготовки. Занятия проходили интересно, сын с удовольствием делал домашние задания."
+      text: "Анна Александровна — настоящий профессионал! Мой сын повысил балл с 45 до 78 за полгода подготовки. Занятия проходили интересно, сын с удовольствием делал домашние задания.",
+      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100"
     },
     {
       name: "Михаил Петров",
       role: "Ученик 11 класса",
-      text: "Благодаря занятиям с Анной Александровной сдал ЕГЭ на 85 баллов и поступил в МГУ! Объясняет очень понятно, всегда поддерживает и верит в успех."
+      text: "Благодаря занятиям с Анной Александровной сдал ЕГЭ на 85 баллов и поступил в МГУ! Объясняет очень понятно, всегда поддерживает и верит в успех.",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100"
     },
     {
       name: "Анастасия Иванова",
       role: "Выпускница",
-      text: "Математика была моим слабым местом, но после года занятий сдала ЕГЭ на 82 балла! Анна Александровна умеет найти подход и объяснить самые сложные темы простым языком."
+      text: "Математика была моим слабым местом, но после года занятий сдала ЕГЭ на 82 балла! Анна Александровна умеет найти подход и объяснить самые сложные темы простым языком.",
+      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100"
     }
   ];
 
@@ -109,8 +112,12 @@ export default function ResultsSection() {
                 <div key={index} className="w-full flex-shrink-0 px-4">
                   <div className="testimonial-card text-gray-800 max-w-2xl mx-auto">
                     <div className="flex items-center mb-6">
-                      <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center mr-4 text-white text-2xl">
-                        <i className="fas fa-user"></i>
+                      <div className="w-16 h-16 rounded-full overflow-hidden mr-4 border-4 border-white shadow-lg">
+                        <img 
+                          src={testimonial.image} 
+                          alt={testimonial.name}
+                          className="w-full h-full object-cover"
+                        />
                       </div>
                       <div>
                         <h4 className="font-bold text-lg">{testimonial.name}</h4>
