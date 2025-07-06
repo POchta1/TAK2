@@ -1,12 +1,12 @@
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+    <section id="about" className="py-20 bg-gradient-to-br from-red-50 to-rose-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold text-4xl lg:text-5xl text-primary mb-6">Обо мне</h2>
+          <h2 className="font-bold text-4xl lg:text-5xl text-primary mb-6">About Me</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Меня зовут <span className="font-semibold text-primary">Елена Смирнова</span>, и я помогаю ученикам 
-            полюбить русский язык и достигать высоких результатов на экзаменах
+            I'm <span className="font-semibold text-primary">Sarah Johnson</span>, and I help students 
+            fall in love with English and achieve excellent results on exams
           </p>
         </div>
         
@@ -14,8 +14,8 @@ export default function AboutSection() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400" 
-                alt="Елена Смирнова во время урока" 
+                src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400" 
+                alt="Sarah Johnson during a lesson" 
                 className="w-full h-96 object-cover transform hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -27,20 +27,20 @@ export default function AboutSection() {
                 <div className="w-12 h-12 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center mr-4">
                   <i className="fas fa-graduation-cap text-white text-xl"></i>
                 </div>
-                <h3 className="font-bold text-xl text-gray-800">Образование</h3>
+                <h3 className="font-bold text-xl text-gray-800">Education</h3>
               </div>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <i className="fas fa-university text-primary mr-3 mt-1"></i>
-                  <span>РУДН, филологический факультет</span>
+                  <span>University of Cambridge, English Literature</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fas fa-medal text-yellow-500 mr-3 mt-1"></i>
-                  <span>Диплом с отличием по специальности "Русский язык и литература"</span>
+                  <span>Bachelor's degree with honors in English Language and Literature</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fas fa-certificate text-green-500 mr-3 mt-1"></i>
-                  <span>Курсы повышения квалификации по современным методикам</span>
+                  <span>Cambridge CELTA certification and ongoing professional development</span>
                 </li>
               </ul>
             </div>
@@ -50,20 +50,20 @@ export default function AboutSection() {
                 <div className="w-12 h-12 bg-gradient-to-r from-accent to-primary rounded-full flex items-center justify-center mr-4">
                   <i className="fas fa-briefcase text-white text-xl"></i>
                 </div>
-                <h3 className="font-bold text-xl text-gray-800">Опыт работы</h3>
+                <h3 className="font-bold text-xl text-gray-800">Work Experience</h3>
               </div>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <i className="fas fa-user-graduate text-primary mr-3 mt-1"></i>
-                  <span>8 лет частного репетиторства</span>
+                  <span>8 years of private tutoring experience</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fas fa-school text-accent mr-3 mt-1"></i>
-                  <span>5 лет работы в ведущих образовательных центрах</span>
+                  <span>5 years working at leading educational centers</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fas fa-chart-line text-green-500 mr-3 mt-1"></i>
-                  <span>Подготовил более 150 учеников к ЕГЭ и ОГЭ</span>
+                  <span>Successfully prepared over 150 students for IELTS, TOEFL, and SAT</span>
                 </li>
               </ul>
             </div>
@@ -73,12 +73,12 @@ export default function AboutSection() {
                 <div className="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-4">
                   <i className="fas fa-lightbulb text-white text-xl"></i>
                 </div>
-                <h3 className="font-bold text-xl">Моя методика</h3>
+                <h3 className="font-bold text-xl">My Teaching Method</h3>
               </div>
-              <p className="text-blue-100 leading-relaxed">
-                Использую <span className="font-semibold">индивидуальный подход</span> к каждому ученику, 
-                современные интерактивные методы и проверенные методики, которые делают изучение 
-                русского языка <span className="font-semibold">увлекательным и эффективным</span>.
+              <p className="text-red-100 leading-relaxed">
+                I use a <span className="font-semibold">personalized approach</span> for each student, 
+                modern interactive methods and proven techniques that make learning 
+                English <span className="font-semibold">engaging and effective</span>.
               </p>
             </div>
           </div>

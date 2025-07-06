@@ -7,7 +7,7 @@ interface ServicesSectionProps {
 export default function ServicesSection({ onBookingClick }: ServicesSectionProps) {
   const [lessonType, setLessonType] = useState(1500);
   const [lessonCount, setLessonCount] = useState(8);
-  const [discount, setDiscount] = useState("Нет");
+  const [discount, setDiscount] = useState("None");
   const [totalCost, setTotalCost] = useState(12000);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
 
   const calculateCost = () => {
     let discountRate = 0;
-    let discountText = "Нет";
+    let discountText = "None";
     
     if (lessonCount >= 20) {
       discountRate = 0.15;
@@ -40,9 +40,9 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
     <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold text-4xl text-primary mb-4">Услуги и цены</h2>
+          <h2 className="font-bold text-4xl text-primary mb-4">Services & Pricing</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Предлагаю различные форматы занятий для максимально эффективного обучения
+            I offer various lesson formats for maximum learning effectiveness
           </p>
         </div>
         
@@ -52,24 +52,24 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
             <div className="bg-gradient-to-r from-primary to-accent w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
               <i className="fas fa-spell-check text-3xl text-white"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3 text-gray-800">Орфография</h3>
-            <p className="text-gray-600 leading-relaxed">Правописание, словарные слова, правила</p>
+            <h3 className="font-bold text-xl mb-3 text-gray-800">Grammar & Spelling</h3>
+            <p className="text-gray-600 leading-relaxed">Grammar rules, vocabulary building, spelling</p>
           </div>
           
           <div className="text-center group">
             <div className="bg-gradient-to-r from-accent to-primary w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
               <i className="fas fa-book-open text-3xl text-white"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3 text-gray-800">Синтаксис</h3>
-            <p className="text-gray-600 leading-relaxed">Пунктуация, предложения, текст</p>
+            <h3 className="font-bold text-xl mb-3 text-gray-800">Speaking & Writing</h3>
+            <p className="text-gray-600 leading-relaxed">Conversation practice, essays, communication</p>
           </div>
           
           <div className="text-center group">
             <div className="bg-gradient-to-r from-yellow-400 to-orange-500 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
               <i className="fas fa-chart-line text-3xl text-white"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3 text-gray-800">Подготовка к ЕГЭ/ОГЭ</h3>
-            <p className="text-gray-600 leading-relaxed">Разбор заданий, изложения, сочинения</p>
+            <h3 className="font-bold text-xl mb-3 text-gray-800">Test Preparation</h3>
+            <p className="text-gray-600 leading-relaxed">IELTS, TOEFL, SAT preparation and practice</p>
           </div>
         </div>
             
@@ -77,16 +77,16 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="service-card">
             <div className="text-center mb-6">
-              <h3 className="font-bold text-2xl mb-2">Базовый</h3>
-              <div className="text-4xl font-bold text-primary mb-2">1500₽</div>
-              <p className="text-gray-600">за урок</p>
+              <h3 className="font-bold text-2xl mb-2">Basic</h3>
+              <div className="text-4xl font-bold text-primary mb-2">$25</div>
+              <p className="text-gray-600">per lesson</p>
             </div>
             <ul className="space-y-3 mb-8">
               {[
-                "Индивидуальные занятия",
-                "60 минут",
-                "Домашние задания",
-                "Контроль прогресса"
+                "Individual lessons",
+                "60 minutes",
+                "Homework assignments",
+                "Progress tracking"
               ].map((feature, index) => (
                 <li key={index} className="flex items-center">
                   <i className="fas fa-check text-green-500 mr-3"></i>
@@ -98,25 +98,25 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
               onClick={onBookingClick}
               className="w-full bg-gray-200 text-gray-800 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
             >
-              Выбрать план
+              Choose Plan
             </button>
           </div>
           
           <div className="service-card bg-primary text-white transform scale-105 relative">
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-primary px-4 py-1 rounded-full text-sm font-bold">
-              ПОПУЛЯРНЫЙ
+              POPULAR
             </div>
             <div className="text-center mb-6">
-              <h3 className="font-bold text-2xl mb-2">Стандартный</h3>
-              <div className="text-4xl font-bold mb-2">2000₽</div>
-              <p className="text-blue-200">за урок</p>
+              <h3 className="font-bold text-2xl mb-2">Standard</h3>
+              <div className="text-4xl font-bold mb-2">$35</div>
+              <p className="text-red-200">per lesson</p>
             </div>
             <ul className="space-y-3 mb-8">
               {[
-                "Все из базового",
-                "90 минут",
-                "Дополнительные материалы",
-                "Онлайн поддержка"
+                "Everything from Basic",
+                "90 minutes",
+                "Additional materials",
+                "Online support"
               ].map((feature, index) => (
                 <li key={index} className="flex items-center">
                   <i className="fas fa-check text-green-400 mr-3"></i>
@@ -128,22 +128,22 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
               onClick={onBookingClick}
               className="w-full bg-white text-primary py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              Выбрать план
+              Choose Plan
             </button>
           </div>
           
           <div className="service-card">
             <div className="text-center mb-6">
-              <h3 className="font-bold text-2xl mb-2">Премиум</h3>
-              <div className="text-4xl font-bold text-primary mb-2">2500₽</div>
-              <p className="text-gray-600">за урок</p>
+              <h3 className="font-bold text-2xl mb-2">Premium</h3>
+              <div className="text-4xl font-bold text-primary mb-2">$45</div>
+              <p className="text-gray-600">per lesson</p>
             </div>
             <ul className="space-y-3 mb-8">
               {[
-                "Все из стандартного",
-                "Пробные экзамены",
-                "Психологическая подготовка",
-                "Связь с родителями"
+                "Everything from Standard",
+                "Mock exams",
+                "Exam strategy coaching",
+                "Parent communication"
               ].map((feature, index) => (
                 <li key={index} className="flex items-center">
                   <i className="fas fa-check text-green-500 mr-3"></i>
