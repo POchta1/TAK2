@@ -10,7 +10,13 @@ export function useCounterAnimation(
   const animationRef = useRef<number>();
 
   useEffect(() => {
-    if (!shouldStart || isAnimating) return;
+    if (!shouldStart) {
+      setCurrentValue(0);
+      setIsAnimating(false);
+      return;
+    }
+    
+    if (isAnimating) return;
 
     setIsAnimating(true);
     const startTime = Date.now();

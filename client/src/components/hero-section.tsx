@@ -8,9 +8,15 @@ interface HeroSectionProps {
 
 export default function HeroSection({ onBookingClick }: HeroSectionProps) {
   const [isVisible, setIsVisible] = useState(false);
+  const [animationKey, setAnimationKey] = useState(0);
 
   useEffect(() => {
-    setIsVisible(true);
+    setIsVisible(false);
+    setAnimationKey(prev => prev + 1);
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 300);
+    return () => clearTimeout(timer);
   }, []);
 
   const successRate = useCounterAnimation(98, 2000, isVisible);
