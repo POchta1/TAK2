@@ -14,7 +14,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1494790108755-2616c4ca8fdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400" 
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400" 
                 alt="Анна Петрова во время урока" 
                 className="w-full h-96 object-cover transform hover:scale-105 transition-transform duration-300"
               />
