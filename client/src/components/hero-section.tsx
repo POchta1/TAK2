@@ -26,25 +26,25 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="lg:w-1/2 text-white text-center lg:text-left">
             <h1 className="font-bold text-4xl lg:text-6xl mb-6 leading-tight text-shadow">
-              Private{" "}
-              <span className="text-yellow-300 block lg:inline">English Tutor</span>
+              Частный репетитор по{" "}
+              <span className="text-yellow-300 block lg:inline">английскому языку</span>
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-red-100 max-w-2xl">
-              Expert English learning with personalized approach for every student
+              Качественная подготовка к ЕГЭ и международным экзаменам с индивидуальным подходом к каждому ученику
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
               <div className="bg-white bg-opacity-20 rounded-xl p-6 backdrop-blur-sm text-center transform hover:scale-105 transition-transform">
                 <div className="stat-counter text-white text-3xl lg:text-4xl font-bold mb-2">{successRate}%</div>
-                <p className="text-red-100 text-sm">successful students</p>
+                <p className="text-red-100 text-sm">успешных учеников</p>
               </div>
               <div className="bg-white bg-opacity-20 rounded-xl p-6 backdrop-blur-sm text-center transform hover:scale-105 transition-transform">
                 <div className="stat-counter text-white text-3xl lg:text-4xl font-bold mb-2">{experience}</div>
-                <p className="text-red-100 text-sm">years of experience</p>
+                <p className="text-red-100 text-sm">лет опыта</p>
               </div>
               <div className="bg-white bg-opacity-20 rounded-xl p-6 backdrop-blur-sm text-center transform hover:scale-105 transition-transform">
                 <div className="stat-counter text-white text-3xl lg:text-4xl font-bold mb-2">{students}+</div>
-                <p className="text-red-100 text-sm">happy students</p>
+                <p className="text-red-100 text-sm">довольных учеников</p>
               </div>
             </div>
             
@@ -54,14 +54,14 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
                 className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-primary font-bold py-4 px-8 rounded-lg text-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
                 <i className="fas fa-calendar-plus mr-2"></i>
-                Free Trial Lesson
+                Пробный урок бесплатно
               </button>
               <button 
                 onClick={() => smoothScrollTo("about")}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-primary transition-all duration-300"
               >
                 <i className="fas fa-arrow-down mr-2"></i>
-                Learn More
+                Узнать больше
               </button>
             </div>
           </div>
@@ -69,16 +69,16 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
           <div className="lg:w-1/2 flex justify-center relative">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&h=600" 
-                alt="Sarah Johnson - English Tutor" 
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&h=600" 
+                alt="Елена Смирнова - репетитор по английскому языку" 
                 className="rounded-2xl shadow-2xl w-80 h-96 lg:w-96 lg:h-[500px] object-cover border-4 border-white transform hover:scale-105 transition-transform duration-300"
               />
               {/* Floating achievements */}
               <div className="absolute -top-4 -right-4 bg-yellow-400 text-primary px-4 py-2 rounded-full font-bold text-sm shadow-lg">
-                TOP Tutor
+                ТОП репетитор
               </div>
               <div className="absolute -bottom-4 -left-4 bg-green-500 text-white px-4 py-2 rounded-full font-bold text-sm shadow-lg">
-                Cambridge Certified
+                Cambridge сертификат
               </div>
             </div>
           </div>
