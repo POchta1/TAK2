@@ -22,10 +22,10 @@ export default function AboutSection() {
             </div>
             
             {/* Floating stats */}
-            <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg">
+            <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-primary to-accent p-4 rounded-xl shadow-lg">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">95%</div>
-                <div className="text-sm text-gray-600">сдают на 80+</div>
+                <div className="text-2xl font-bold text-white">95%</div>
+                <div className="text-sm text-blue-100">сдают на 80+</div>
               </div>
             </div>
             <div className="absolute -top-6 -left-6 bg-yellow-400 p-4 rounded-xl shadow-lg">
