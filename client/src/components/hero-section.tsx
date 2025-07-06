@@ -13,9 +13,9 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
     setIsVisible(true);
   }, []);
 
-  const successRate = useCounterAnimation(95, 2000, isVisible);
-  const experience = useCounterAnimation(8, 2000, isVisible);
-  const students = useCounterAnimation(150, 2000, isVisible);
+  const successRate = useCounterAnimation(98, 2000, isVisible);
+  const experience = useCounterAnimation(7, 2000, isVisible);
+  const students = useCounterAnimation(600, 2000, isVisible);
 
   return (
     <section id="hero" className="hero-gradient min-h-screen flex items-center relative overflow-hidden">
