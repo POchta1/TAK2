@@ -6,28 +6,28 @@ export default function ResultsSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const sectionRef = useRef<HTMLElement>(null);
 
-  const avgScore = useCounterAnimation(93, 2000, isVisible);
-  const successRate = useCounterAnimation(97, 2000, isVisible);
-  const improvement = useCounterAnimation(39, 2000, isVisible);
-  const satisfaction = useCounterAnimation(100, 2000, isVisible);
+  const avgScore = 93;
+  const successRate = 97;
+  const improvement = 39;
+  const satisfaction = 100;
 
   const testimonials = [
     {
-      name: "Елена Смирнова",
+      name: "Анна Петрова",
       role: "Мама ученика",
-      text: "Анна Александровна — настоящий профессионал! Мой сын повысил балл с 45 до 78 за полгода подготовки. Занятия проходили интересно, сын с удовольствием делал домашние задания.",
+      text: "Елена Владимировна — настоящий профессионал! Моя дочь повысила балл по английскому с 45 до 78 за полгода подготовки. Занятия проходили интересно, дочь с удовольствием изучала английский язык.",
       image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100"
     },
     {
-      name: "Михаил Петров",
+      name: "Алексей Иванов",
       role: "Ученик 11 класса",
-      text: "Благодаря занятиям с Анной Александровной сдал ЕГЭ на 85 баллов и поступил в МГУ! Объясняет очень понятно, всегда поддерживает и верит в успех.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100"
+      text: "Благодаря занятиям с Еленой Владимировной сдал ЕГЭ по английскому языку на 89 баллов и поступил в МГУ! Объясняет очень понятно, всегда поддерживает и верит в успех.",
+      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100"
     },
     {
-      name: "Анастасия Иванова",
+      name: "Мария Сидорова",
       role: "Выпускница",
-      text: "Математика была моим слабым местом, но после года занятий сдала ЕГЭ на 82 балла! Анна Александровна умеет найти подход и объяснить самые сложные темы простым языком.",
+      text: "Английский язык был моим слабым местом, но после года занятий сдала ЕГЭ на 85 баллов! Елена Владимировна умеет найти подход и объяснить самые сложные темы простым языком.",
       image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100"
     }
   ];
@@ -73,8 +73,8 @@ export default function ResultsSection() {
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold text-4xl mb-4">Результаты учеников</h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+          <h2 className="font-bold text-4xl mb-4 text-white">Результаты учеников</h2>
+          <p className="text-xl text-red-100 max-w-3xl mx-auto">
             Моя главная цель — помочь каждому ученику раскрыть свой потенциал и достичь высоких результатов
           </p>
         </div>
@@ -82,26 +82,26 @@ export default function ResultsSection() {
         {/* Statistics */}
         <div className="grid md:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
-            <div className="text-4xl font-bold mb-2">{avgScore}</div>
-            <p className="text-blue-200">Средний балл ЕГЭ</p>
+            <div className="text-4xl font-bold mb-2 text-white">{avgScore}</div>
+            <p className="text-red-200">Средний балл ЕГЭ</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold mb-2">{successRate}</div>
-            <p className="text-blue-200">% поступивших в ВУЗы</p>
+            <div className="text-4xl font-bold mb-2 text-white">{successRate}</div>
+            <p className="text-red-200">% поступивших в ВУЗы</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold mb-2">{improvement}</div>
-            <p className="text-blue-200">Улучшение на баллов</p>
+            <div className="text-4xl font-bold mb-2 text-white">{improvement}</div>
+            <p className="text-red-200">Улучшение на баллов</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold mb-2">{satisfaction}</div>
-            <p className="text-blue-200">% довольных родителей</p>
+            <div className="text-4xl font-bold mb-2 text-white">{satisfaction}</div>
+            <p className="text-red-200">% довольных родителей</p>
           </div>
         </div>
         
         {/* Testimonials Slider */}
         <div className="relative max-w-4xl mx-auto">
-          <h3 className="font-bold text-2xl text-center mb-8">Отзывы учеников и родителей</h3>
+          <h3 className="font-bold text-2xl text-center mb-8 text-white">Отзывы учеников и родителей</h3>
           
           <div className="relative overflow-hidden rounded-2xl">
             <div 

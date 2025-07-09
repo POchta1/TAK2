@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a modern, professional tutoring website built for private mathematics tutors. The application is designed as a business card/landing page that showcases the tutor's services, qualifications, and allows potential students to contact and book trial lessons. The website features a clean, educational design inspired by successful learning platforms like Coursera and Khan Academy.
+This is a modern, professional tutoring website built for private English language tutors. The application is designed as a business card/landing page that showcases the tutor's services, qualifications, and allows potential students to contact and book trial lessons. The website features a clean, educational design with a soft red color scheme and English language-specific content while maintaining Russian interface.
 
 ## System Architecture
 
@@ -47,8 +47,8 @@ This is a modern, professional tutoring website built for private mathematics tu
 
 ### Database Schema
 - **Users**: Basic user management (future authentication)
-- **Contact Forms**: Student inquiries with parent contact information
-- **Bookings**: Trial lesson scheduling with date/time preferences
+- **Contact Forms**: Student inquiries for English learning with parent contact information
+- **Bookings**: Trial English lesson scheduling with date/time preferences
 
 ## Data Flow
 
@@ -114,6 +114,7 @@ This is a modern, professional tutoring website built for private mathematics tu
 ```
 Changelog:
 - June 27, 2025. Initial setup
+- July 6, 2025. Migrated to Replit environment, adapted content for English language tutor (Russian interface), changed color scheme to soft red
 ```
 
 ## User Preferences

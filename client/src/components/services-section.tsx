@@ -42,7 +42,7 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
         <div className="text-center mb-16">
           <h2 className="font-bold text-4xl text-primary mb-4">Услуги и цены</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Предлагаю различные форматы занятий для максимально эффективного обучения
+            Предлагаю различные форматы занятий для максимально эффективного изучения английского языка
           </p>
         </div>
         
@@ -50,26 +50,26 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="text-center group">
             <div className="bg-gradient-to-r from-primary to-accent w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
-              <i className="fas fa-calculator text-3xl text-white"></i>
+              <i className="fas fa-spell-check text-3xl text-white"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3 text-gray-800">Алгебра</h3>
-            <p className="text-gray-600 leading-relaxed">Уравнения, неравенства, функции, логарифмы</p>
+            <h3 className="font-bold text-xl mb-3 text-gray-800">Грамматика и лексика</h3>
+            <p className="text-gray-600 leading-relaxed">Правила грамматики, расширение словарного запаса, правописание</p>
           </div>
           
           <div className="text-center group">
             <div className="bg-gradient-to-r from-accent to-primary w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
-              <i className="fas fa-shapes text-3xl text-white"></i>
+              <i className="fas fa-book-open text-3xl text-white"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3 text-gray-800">Геометрия</h3>
-            <p className="text-gray-600 leading-relaxed">Планиметрия, стереометрия, векторы</p>
+            <h3 className="font-bold text-xl mb-3 text-gray-800">Разговорная речь и письмо</h3>
+            <p className="text-gray-600 leading-relaxed">Практика общения, написание эссе, развитие коммуникативных навыков</p>
           </div>
           
           <div className="text-center group">
             <div className="bg-gradient-to-r from-yellow-400 to-orange-500 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
               <i className="fas fa-chart-line text-3xl text-white"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3 text-gray-800">Подготовка к ЕГЭ/ОГЭ</h3>
-            <p className="text-gray-600 leading-relaxed">Разбор заданий, стратегии решения</p>
+            <h3 className="font-bold text-xl mb-3 text-gray-800">Подготовка к экзаменам</h3>
+            <p className="text-gray-600 leading-relaxed">Подготовка к ЕГЭ, IELTS, TOEFL и другим экзаменам</p>
           </div>
         </div>
             
@@ -109,7 +109,7 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
             <div className="text-center mb-6">
               <h3 className="font-bold text-2xl mb-2">Стандартный</h3>
               <div className="text-4xl font-bold mb-2">2000₽</div>
-              <p className="text-blue-200">за урок</p>
+              <p className="text-red-200">за урок</p>
             </div>
             <ul className="space-y-3 mb-8">
               {[
@@ -142,7 +142,7 @@ export default function ServicesSection({ onBookingClick }: ServicesSectionProps
               {[
                 "Все из стандартного",
                 "Пробные экзамены",
-                "Психологическая подготовка",
+                "Стратегия подготовки к экзаменам",
                 "Связь с родителями"
               ].map((feature, index) => (
                 <li key={index} className="flex items-center">
