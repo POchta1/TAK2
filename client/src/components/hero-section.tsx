@@ -85,37 +85,37 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
         </div>
       </div>
       
-      {/* English language elements background */}
+      {/* English tenses background - static with rotation */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Row 1 - English only */}
-        <div className="absolute top-12 left-12 text-white text-2xl opacity-15 animate-pulse" style={{animationDelay: '0s'}}>A, B, C</div>
-        <div className="absolute top-16 right-20 text-white text-xl opacity-10 animate-pulse" style={{animationDelay: '0.5s'}}>grammar</div>
-        <div className="absolute top-32 left-1/4 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '1s'}}>TOEFL</div>
-        <div className="absolute top-48 right-1/3 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '1.5s'}}>speaking</div>
+        {/* Row 1 - English tenses */}
+        <div className="absolute top-12 left-12 text-white text-2xl opacity-15 transform rotate-3">Present Simple</div>
+        <div className="absolute top-16 right-20 text-white text-xl opacity-10 transform -rotate-2">Past Perfect</div>
+        <div className="absolute top-32 left-1/4 text-white text-lg opacity-20 transform rotate-1">Future Continuous</div>
+        <div className="absolute top-48 right-1/3 text-white text-xl opacity-15 transform -rotate-3">Present Progressive</div>
         
-        {/* Row 2 - English only */}
-        <div className="absolute top-64 left-8 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '2s'}}>vocabulary</div>
-        <div className="absolute top-80 right-12 text-white text-2xl opacity-20 animate-pulse" style={{animationDelay: '2.5s'}}>X, Y, Z</div>
-        <div className="absolute top-96 left-1/3 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '3s'}}>IELTS</div>
-        <div className="absolute top-72 right-1/4 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '3.5s'}}>pronunciation</div>
+        {/* Row 2 - English tenses */}
+        <div className="absolute top-64 left-8 text-white text-lg opacity-10 transform rotate-2">Past Simple</div>
+        <div className="absolute top-80 right-12 text-white text-2xl opacity-20 transform -rotate-1">Future Perfect</div>
+        <div className="absolute top-96 left-1/3 text-white text-xl opacity-15 transform rotate-3">Present Perfect</div>
+        <div className="absolute top-72 right-1/4 text-white text-lg opacity-10 transform -rotate-2">Past Continuous</div>
         
         {/* Row 3 - Middle */}
-        <div className="absolute top-1/2 left-12 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '4s'}}>verb</div>
-        <div className="absolute top-1/2 right-16 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '4.5s'}}>syntax</div>
-        <div className="absolute top-1/2 left-1/2 text-white text-2xl opacity-10 animate-pulse" style={{animationDelay: '5s'}}>Q, R, S</div>
-        <div className="absolute top-60 left-1/2 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '5.5s'}}>preposition</div>
+        <div className="absolute top-1/2 left-12 text-white text-xl opacity-15 transform rotate-1">Future Simple</div>
+        <div className="absolute top-1/2 right-16 text-white text-lg opacity-20 transform -rotate-3">Past Perfect Continuous</div>
+        <div className="absolute top-1/2 left-1/2 text-white text-2xl opacity-10 transform rotate-2">Conditional</div>
+        <div className="absolute top-60 left-1/2 text-white text-xl opacity-15 transform -rotate-1">Present Perfect Continuous</div>
         
         {/* Row 4 */}
-        <div className="absolute bottom-48 left-16 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '6s'}}>article</div>
-        <div className="absolute bottom-64 right-20 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '6.5s'}}>morphology</div>
-        <div className="absolute bottom-80 left-1/4 text-white text-2xl opacity-10 animate-pulse" style={{animationDelay: '7s'}}>T, U, V</div>
-        <div className="absolute bottom-32 right-1/3 text-white text-lg opacity-20 animate-pulse" style={{animationDelay: '7.5s'}}>participle</div>
+        <div className="absolute bottom-48 left-16 text-white text-lg opacity-20 transform rotate-3">Future Perfect Continuous</div>
+        <div className="absolute bottom-64 right-20 text-white text-xl opacity-15 transform -rotate-2">Subjunctive</div>
+        <div className="absolute bottom-80 left-1/4 text-white text-2xl opacity-10 transform rotate-1">Imperative</div>
+        <div className="absolute bottom-32 right-1/3 text-white text-lg opacity-20 transform -rotate-3">Infinitive</div>
         
         {/* Row 5 - Bottom */}
-        <div className="absolute bottom-16 left-8 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '8s'}}>adjective</div>
-        <div className="absolute bottom-24 right-12 text-white text-lg opacity-10 animate-pulse" style={{animationDelay: '8.5s'}}>pronoun</div>
-        <div className="absolute bottom-40 left-1/3 text-white text-2xl opacity-20 animate-pulse" style={{animationDelay: '9s'}}>W, X, Y</div>
-        <div className="absolute bottom-12 right-1/4 text-white text-xl opacity-15 animate-pulse" style={{animationDelay: '9.5s'}}>noun</div>
+        <div className="absolute bottom-16 left-8 text-white text-xl opacity-15 transform rotate-2">Gerund</div>
+        <div className="absolute bottom-24 right-12 text-white text-lg opacity-10 transform -rotate-1">Participle</div>
+        <div className="absolute bottom-40 left-1/3 text-white text-2xl opacity-20 transform rotate-3">Passive Voice</div>
+        <div className="absolute bottom-12 right-1/4 text-white text-xl opacity-15 transform -rotate-2">Modal Verbs</div>
       </div>
       
       {/* Floating circles for visual appeal */}
